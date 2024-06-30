@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Price Negotiating Chatbot with Text & Voice on E-commerce website</title>
+    <link rel="stylesheet" href="web-recorder-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Live Voice Recorder{{ res }}</h1>
+    </header>
+    <main>
+      
+      <div class="controls">
+        <button type="button" id="mic">Get Microphone</button>
+        <button type="button" id="record" hidden>Record</button>
+      </div>
+      <ul id="recordings"></ul>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const getMic = document.getElementById('mic');
+        const recordButton = document.getElementById('record');
+        const list = document.getElementById('recordings');
+        if ('MediaRecorder' in window) {
+          getMic.addEventListener('click', async () => {
+            getMic.setAttribute('hidden', 'hidden');
+            try {
+              const stream = await navigator.mediaDevices.getUserMedia({
+                audio: true,
+                video: false
+              });
+              const mimeType = 'audio/wav';
+              let chunks = [];
+              const recorder = new MediaRecorder(stream, { type: 'audio/wav' });
+              recorder.addEventListener('dataavailable', event => {
+                if (typeof event.data === 'undefined') return;
+                if (event.data.size === 0) return;
+                chunks.push(event.data);
+              });
+              recorder.addEventListener('stop', () => {
+                const recording = new Blob(chunks, {
+                  type: mimeType
+                });
+                renderRecording(recording, list);
+                chunks = [];
+              });
+              recordButton.removeAttribute('hidden');
+              recordButton.addEventListener('click', () => {
+                if (recorder.state === 'inactive') {
+                  recorder.start();
+                  recordButton.innerText = 'Stop';
+                } else {
+                  recorder.stop();
+                  recordButton.innerText = 'Record';
+                }
+              });
+            } catch {
+              renderError(
+                'You denied access to the microphone so this demo will not work.'
+              );
+            }
+          });
+        } else {
+          renderError(
+            "Sorry, your browser doesn't support the MediaRecorder API, so this demo will not work."
+          );
+        }
+      });
+
+      function renderError(message) {
+        const main = document.querySelector('main');
+        main.innerHTML = `<div class="error"><p>${message}</p></div>`;
+      }
+
+      function renderRecording(blob, list) {
+        const blobUrl = URL.createObjectURL(blob);
+        const li = document.createElement('li');
+        const audio = document.createElement('audio');
+        const anchor = document.createElement('a');
+        anchor.setAttribute('href', blobUrl);
+        const now = new Date();
+        anchor.setAttribute(
+          'download',
+          `recording-${now.getFullYear()}-${(now.getMonth() + 1)
+            .toString()
+            .padStart(2, '0')}-${now
+            .getDay()
+            .toString()
+            .padStart(2, '0')}--${now
+            .getHours()
+            .toString()
+            .padStart(2, '0')}-${now
+            .getMinutes()
+            .toString()
+            .padStart(2, '0')}-${now
+            .getSeconds()
+            .toString()
+            .padStart(2, '0')}.webm`
+        );
+        anchor.innerText = 'Download';
+        audio.setAttribute('src', blobUrl);
+        audio.setAttribute('controls', 'controls');
+        li.appendChild(audio);
+        li.appendChild(anchor);
+        list.appendChild(li);
+        
+            //on rec.stop() 
+        console.log(blob);
+		var mydata = ""
+		mydata = document.getElementById("t1").value+"\n"
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("POST", "http://127.0.0.1:5000/record", true);
+        var data = new FormData();
+        data.append('data', blob, 'audio_blob');
+        xhttp.send(data);
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                console.log(this.responseText); 
+				mydata = mydata + this.responseText
+				document.getElementById("t1").innerHTML = mydata;
+             }
+        };
+            
+        
+      }
+    </script>
+	 
+	<form name ="frm" method="post" action="/CompleteOrder" onsubmit="return validate(this);">
+	<br/><br/>
+	<div id="result">
+        <textarea name="t1" id="t1" rows="20" cols="80"></textarea>
+    </div>
+	</button>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;<input type="Submit" value="Purchase Product"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="UserScreen"><font size="3" color="black">Back</a>
+<br/><br/><br/><br/>
+  </body>
+</html>

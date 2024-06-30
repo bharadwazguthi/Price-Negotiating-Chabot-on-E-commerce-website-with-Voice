@@ -1,0 +1,8 @@
+pip install pandas==0.25.3
+pip install numpy==1.19.2
+pip install vaderSentiment==3.3.1
+pip install scikit-learn==0.22.2.post1
+pip install SpeechRecognition==3.8.1
+pip install PyMySQL==0.9.3
+pip install Flask==2.1.0
+pip install Flask-Cors==3.0.10

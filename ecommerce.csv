@@ -1,0 +1,69 @@
+index,Type,Name,Short_description,Images,Price,Negotiate
+0,simple,Divi Engine String Bag (Big Logo),This fashionable string bag is made of 100% cotton. It is the perfect size for carrying your everyday essentials.,"https://ajax-filters-bc.diviengine.com/sampledata/images/Bag1.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Bag1-1.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Bag1-2.jpg",19.99,17.991
+1,simple,Divi Engine String Bag (Small Logos),This fashionable string bag is made of 100% cotton. It is the perfect size for carrying your everyday essentials.,"https://ajax-filters-bc.diviengine.com/sampledata/images/Bag2.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Bag2-1.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Bag2-2.jpg",19.99,17.991
+2,variable,Brand Buttons,"Represent your favorite CMS, eCommerce Platform, Website Builder, or Plugin Company in style with a cool pin.",https://ajax-filters-bc.diviengine.com/sampledata/images/DE-Pins-4.jpg,20.0,18.0
+3,variation,Brand Buttons - Divi,0,https://ajax-filters-bc.diviengine.com/sampledata/images/DE-Pins-1.jpg,9.99,8.991
+4,variation,Brand Buttons - Divi Engine,0,https://ajax-filters-bc.diviengine.com/sampledata/images/DE-Pins-4.jpg,9.99,8.991
+5,variation,Brand Buttons - WooCommerce,0,https://ajax-filters-bc.diviengine.com/sampledata/images/DE-Pins-2.jpg,9.99,8.991
+6,variation,Brand Buttons - WordPress,0,https://ajax-filters-bc.diviengine.com/sampledata/images/DE-Pins-3.jpg,9.99,8.991
+7,simple,Lanyard,Stop losing your important access keys with a lanyard that is ALMOST as reliable as Divi Engine plugins!,https://ajax-filters-bc.diviengine.com/sampledata/images/Lanyard1.jpg,9.99,7.99
+8,variable,Divi Engine Tee,This comfortable cotton t-shirt that features the Divi Engine logo on the front is perfect for any occasion. The shirt is available in three colors.,"https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-yellow-front.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-blue-front.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-white-front.jpg",20.0,18.0
+9,variation,"Divi Engine Tee - Blue, Large",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-blue-front.jpg,14.99,13.491
+10,variation,"Divi Engine Tee - White, Large",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-white-front.jpg,14.99,13.491
+11,variation,"Divi Engine Tee - Yellow, Large",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-yellow-front.jpg,14.99,13.491
+12,variation,"Divi Engine Tee - Blue, Medium",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-blue-front.jpg,14.99,13.491
+13,variation,"Divi Engine Tee - White, Medium",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-white-front.jpg,14.99,13.491
+14,variation,"Divi Engine Tee - Yellow, Medium",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-yellow-front.jpg,14.99,13.491
+15,variation,"Divi Engine Tee - Blue, Small",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-blue-front.jpg,14.99,13.491
+16,variation,"Divi Engine Tee - White, Small",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-white-front.jpg,14.99,13.491
+17,variation,"Divi Engine Tee - Yellow, Small",0,https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-3-yellow-front.jpg,14.99,13.491
+18,variable,Divi Tee,This comfortable cotton t-shirt features the Divi logo on the front and back. It is the perfect tee for any occasion.,"https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-2---front.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-2---back.jpg",20.0,18.0
+19,variation,Divi Tee - Large,0,0,14.99,12.99
+20,variation,Divi Tee - Medium,0,0,14.99,12.99
+21,variation,Divi Tee - Small,0,0,14.99,12.99
+22,variable,WordPress Tee,This comfortable cotton t-shirt features the WordPress logo on the front and back. It is the perfect tee for any occasion.,"https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-1---front.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/Shirt-1---back.jpg",20.0,18.0
+23,variation,WordPress Tee - Large,0,0,14.99,12.99
+24,variation,WordPress Tee - Medium,0,0,14.99,12.99
+25,variation,WordPress Tee - Small,0,0,14.99,12.99
+26,variable,Mens Divi Hoodie,"This Divi hoodie is a must have for any Divi fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your Divi pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-2.jpg,20.0,18.0
+27,variation,Mens Divi Hoodie - Large,0,0,39.99,35.991
+28,variation,Mens Divi Hoodie - Medium,0,0,34.99,31.491
+29,variation,Mens Divi Hoodie - Small,0,0,34.99,31.491
+30,variable,Dat Divi Engine Life Hoodie - Limited Edition,"This Divi Engine hoodie is a must have for any Divi Engine fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your Divi Engine pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-1.jpg,20.0,18.0
+31,variation,Dat Divi Engine Life Hoodie - Limited Edition - Large,0,0,44.99,40.491
+32,variation,Dat Divi Engine Life Hoodie - Limited Edition - Medium,0,0,44.99,40.491
+33,variation,Dat Divi Engine Life Hoodie - Limited Edition - Small,0,0,44.99,40.491
+34,variable,Mens WordPress Hoodie,"This WordPress hoodie is a must have for any WordPress fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your WordPress pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-3.jpg,20.0,18.0
+35,variation,Mens WordPress Hoodie - Large,0,0,34.99,31.491
+36,variation,Mens WordPress Hoodie - Medium,0,0,34.99,31.491
+37,variation,Mens WordPress Hoodie - Small,0,0,34.99,31.491
+38,variable,Divi Engine Logo Zipper Hoodie,"This Divi Engine hoodie is a must have for any Divi Engine fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your Divi Engine pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-Women-1.jpg,20.0,18.0
+39,variation,Divi Engine Logo Zipper Hoodie - Large,0,0,29.99,26.991
+40,variation,Divi Engine Logo Zipper Hoodie - Medium,0,0,29.99,26.991
+41,variation,Divi Engine Logo Zipper Hoodie - Small,0,0,29.99,26.991
+42,variable,Purple Divi Engine Text Zipper Hoodie,"This Divi Engine hoodie is a must have for any Divi Engine fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your Divi Engine pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-Women-2.jpg,20.0,18.0
+43,variation,Purple Divi Engine Text Zipper Hoodie - Large,0,0,29.99,27.99
+44,variation,Purple Divi Engine Text Zipper Hoodie - Medium,0,0,29.99,27.99
+45,variation,Purple Divi Engine Text Zipper Hoodie - Small,0,0,29.99,27.99
+46,variable,"WooCommerce ""Gimme the Money"" Zipper Hoodie","This WooCommerce hoodie is a must have for any WooCommerce fan. It is made from a soft, comfortable, and durable cotton blend. The hoodie is a perfect way to stay warm and show your WooCommerce pride.",https://ajax-filters-bc.diviengine.com/sampledata/images/Hoodie-Women-3.jpg,20.0,18.0
+47,variation,"WooCommerce ""Gimme the Money"" Zipper Hoodie - Large",0,0,29.99,27.99
+48,variation,"WooCommerce ""Gimme the Money"" Zipper Hoodie - Medium",0,0,29.99,27.99
+49,variation,"WooCommerce ""Gimme the Money"" Zipper Hoodie - Small",0,0,29.99,27.99
+50,variable,Divi Ninja Tee,This comfortable cotton t-shirt features the Divi logo on the front and expresses your Ninja status with the theme. It is the perfect tee for any occasion.,https://ajax-filters-bc.diviengine.com/sampledata/images/Divi-Ninja.jpg,20.0,18.0
+51,variation,Divi Ninja Tee - Large,0,0,12.99,11.691
+52,variation,Divi Ninja Tee - Medium,0,0,12.99,11.691
+53,variation,Divi Ninja Tee - Small,0,0,12.99,11.691
+54,variable,Divi Simplified Crop-top,This comfortable cotton crop-top features the Divi and Divi Engine logos on the front and back. It is the perfect tee for any occasion.,"https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-white.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-blue.jpg, https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-yellow.jpg",20.0,18.0
+55,variable,Dat Divi Engine Life Crop-top (3-Tone),"This comfortable cotton crop-top features the Divi Engine logo on the front expressing how easy ""data Divi Engine life"" is. It is the perfect tee for any occasion.",https://ajax-filters-bc.diviengine.com/sampledata/images/Dat-Divi_Life.jpg,20.0,18.0
+56,variation,Dat Divi Engine Life Crop-top (3-Tone) - Large,0,0,14.99,13.491
+57,variation,Dat Divi Engine Life Crop-top (3-Tone) - Medium,0,0,12.99,11.691
+58,variation,Dat Divi Engine Life Crop-top (3-Tone) - Small,0,0,12.99,11.691
+59,variation,"Divi Simplified Crop-top - Large, Blue",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-blue.jpg,12.99,11.691
+60,variation,"Divi Simplified Crop-top - Large, White",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-white.jpg,12.99,11.691
+61,variation,"Divi Simplified Crop-top - Large, Yellow",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-yellow.jpg,12.99,11.691
+62,variation,"Divi Simplified Crop-top - Medium, Blue",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-blue.jpg,12.99,11.691
+63,variation,"Divi Simplified Crop-top - Medium, White",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-white.jpg,12.99,11.691
+64,variation,"Divi Simplified Crop-top - Medium, Yellow",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-yellow.jpg,12.99,11.691
+65,variation,"Divi Simplified Crop-top - Small, Blue",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-blue.jpg,12.99,11.691
+66,variation,"Divi Simplified Crop-top - Small, White",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-white.jpg,12.99,11.691
+67,variation,"Divi Simplified Crop-top - Small, Yellow",0,https://ajax-filters-bc.diviengine.com/sampledata/images/divi-Simplified-croptop-yellow.jpg,12.99,11.691
