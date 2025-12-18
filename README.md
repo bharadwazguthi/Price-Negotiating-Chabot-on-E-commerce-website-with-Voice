@@ -118,11 +118,8 @@ This is a Flask-based web application where users can browse products, negotiate
 
 If you wish to contribute to the project, please fork the repository and create a pull request with your changes. Make sure to write clear commit messages and provide a detailed description of your changes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Contact
 
 For any questions or feedback, please contact [bharadwazguthi@gmail.com](mailto:your-email@example.com).
+
 
